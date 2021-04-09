@@ -60,28 +60,28 @@ const DUMMY_MEALS = const [
   Meal(
     id: 'm1',
     categories: ['c1', 'c2'],
-    title: 'Spaghetti with Tomato Sauce',
+    title: 'Espaguete com Molho de Tomate',
     cost: Cost.Cheap,
     complexity: Complexity.Simple,
     imageUrl:
         'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
     duration: 20,
     ingredients: [
-      '4 Tomatoes',
-      '1 Tablespoon of Olive Oil',
-      '1 Onion',
-      '250g Spaghetti',
-      'Spices',
-      'Cheese (optional)'
+      '4 Tomates',
+      '1 Colher de sopa de azeite',
+      '1 Cebola',
+      '250g Macarrão',
+      'Temperos',
+      'Queijo (opcional)'
     ],
     steps: [
-      'Cut the tomatoes and the onion into small pieces.',
-      'Boil some water - add salt to it once it boils.',
-      'Put the spaghetti into the boiling water - they should be done in about 10 to 12 minutes.',
-      'In the meantime, heaten up some olive oil and add the cut onion.',
-      'After 2 minutes, add the tomato pieces, salt, pepper and your other spices.',
-      'The sauce will be done once the spaghetti are.',
-      'Feel free to add some cheese on top of the finished dish.'
+      'Corte os tomates e a cebola em pequenos pedaços.',
+      'Ferva um pouco de água - adicione sal quando ferver.',
+      'Coloque o espaguete na água fervente - deve ser feito em cerca de 10 a 12 minutos.',
+      'Enquanto isso, aqueça um pouco de azeite e adicione a cebola cortada.',
+      'Após 2 minutos, adicione os pedaços de tomate, sal, pimenta e outros tempeiros.',
+      'O molho estará pronto assim que o espaguete estiver pronto.',
+      'Sinta-se à vontade para adicionar um pouco de queijo em cima do prato pronto.'
     ],
     isGlutenFree: false,
     isVegan: true,
