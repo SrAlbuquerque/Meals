@@ -3,6 +3,8 @@ import 'package:meals/screens/meal_detail_screen.dart';
 
 import 'screens/categories_screen.dart';
 import 'screens/categories _meals_screen.dart';
+import 'screens/tabs_screen.dart';
+
 import 'utils/app_routes.dart';
 
 void main() => runApp(MyApp());
@@ -21,8 +23,9 @@ class MyApp extends StatelessWidget {
               headline6: TextStyle(fontSize: 20, fontFamily: 'RobotoCondensed'),
             ),
       ),
+      // As rotas das páginas
       routes: {
-        AppRoutes.HOME: (ctx) => CategoriesScreen(),
+        AppRoutes.HOME: (ctx) => TabsScreen(),
         AppRoutes.CATEGORIES_MEALS: (ctx) => CategoriesMealsScreen(),
         AppRoutes.MEAL_DETAIL: (ctx) => MealDetailScreen(),
       },
