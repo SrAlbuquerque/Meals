@@ -27,10 +27,10 @@ class _TabsScreenState extends State<TabsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(_screens[_selectedScreenIndex]['title']),
+        title: Text(_screens[_selectedScreenIndex]['title'] as String),
       ),
       drawer: MainDrawer(),
-      body: _screens[_selectedScreenIndex]['screen'],
+      body: _screens[_selectedScreenIndex]['screen'] as Widget?,
       bottomNavigationBar: BottomNavigationBar(
         onTap: _selectScreen,
         backgroundColor: Theme.of(context).primaryColor,
