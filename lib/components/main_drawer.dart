@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:meals/utils/app_routes.dart';
 
 class MainDrawer extends StatelessWidget {
-  Widget _createItem(IconData icon, String label, final Function() onTap) {
+  Widget _createItem(IconData icon, String label, Function() onTap) {
     return ListTile(
       leading: Icon(
         icon,
